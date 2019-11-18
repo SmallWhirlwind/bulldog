@@ -27,7 +27,7 @@ public class BulldogApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        fxmlLoader.setLocation(getClass().getResource("/fxml/sample.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("/views/main.fxml"));
         Parent rootNode = fxmlLoader.load();
 
         primaryStage.setTitle("Hello World");
